@@ -1,0 +1,10 @@
+.vscode/
+build/
+typings/
+.tscache/
+input/
+node_modules/
+.baseDir.ts
+.DS_Store
+._*
+.idea/
