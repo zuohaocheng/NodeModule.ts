@@ -21,11 +21,9 @@ module.exports = function (grunt) {
     ts: {
       src: {
         src: ['src/**/*.ts'],
-        exclude: ['src/typings/**/*'],
-        //out: 'build/PROJECT.js',
         outDir: 'build/',
         options: {
-          target: 'es5',
+          target: 'es6',
           sourceMaps: true,
           declaration: true,
           removeComments: false,
@@ -35,7 +33,7 @@ module.exports = function (grunt) {
     },
     run: {
       src: {
-        args: ['./build/index.js'],
+        args: ['--use_strict', './build/index.js'],
         options: {
         }
       }
