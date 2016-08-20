@@ -33,7 +33,7 @@ module.exports = function (grunt) {
     },
     run: {
       src: {
-        args: ['--use_strict', './build/index.js'],
+        args: ['./build/index.js'],
         options: {
         }
       }

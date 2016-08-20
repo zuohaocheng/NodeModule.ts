@@ -9,9 +9,9 @@
   },
   "author": "Zuo Haocheng",
   "license": "MIT",
-  "repository" : {
-       "type" : "git",
-       "url" : "https://github.com/zuohaocheng/NodeModule.ts.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zuohaocheng/NodeModule.ts.git"
   },
   "dependencies": {},
   "devDependencies": {
@@ -19,6 +19,7 @@
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-run": "^0.6.0",
-    "grunt-ts": "^5.5.1"
+    "grunt-ts": "^5.5.1",
+    "typescript": "^1.8.10"
   }
 }
