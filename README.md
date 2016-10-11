@@ -5,19 +5,20 @@ It can be used in Windows and Unix.
 
 ## Setup
 
-Make sure `typings` is installed globally. Also, `grunt-cli` is recommend.
-
-	npm install -g typings grunt-cli
-
 Install the dependencies and basic TypeScript definitions.
 
 	npm install
     
-It uses ES6 target now to support `async`/`await`, so `node.js` 5.3.0 is recommended.
+It uses ES6 target now to support `async`/`await`, so `node.js` 6+ is recommended.
+
+`grunt-cli` is recommend.
+
+	npm install -g grunt-cli
 
 ## Run
 
 `grunt` can be used to build & run the code. 
 
 ## IDEs
+
 The suggested IDE is Visual Studio Code.

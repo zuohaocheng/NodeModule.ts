@@ -8,7 +8,9 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    clean: ["build/"],
+    clean: {
+      all: "build/"
+    },
     copy: {
       src: {
         expand: true,
@@ -24,10 +26,16 @@ module.exports = function (grunt) {
         outDir: 'build/',
         options: {
           target: 'es6',
-          sourceMaps: true,
           declaration: true,
           removeComments: false,
-          module: 'commonjs'
+          module: 'commonjs',
+          "noImplicitAny": true,
+          "noImplicitReturns": true,
+          "noImplicitThis": true,
+          "strictNullChecks": true,
+          "noLib": false,
+          "inlineSourceMap": true,
+          "inlineSources": true
         }
       }
     },

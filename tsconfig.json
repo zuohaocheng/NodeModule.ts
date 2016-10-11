@@ -4,9 +4,14 @@
         "module": "commonjs",
         "declaration": true,
         "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
         "removeComments": false,
         "sourceMaps": true,
-        "noLib": false
+        "noLib": false,
+        "inlineSourceMap": true,
+        "inlineSources": true
     },
     "filesGlob": [
         "src/**/*.ts",

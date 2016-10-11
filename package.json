@@ -4,7 +4,7 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
-    "run": "node --use-strict build/index.js",
+    "start": "grunt go",
     "postinstall": "typings install"
   },
   "author": "Zuo Haocheng",
@@ -15,11 +15,12 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^6.0.45",
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-run": "^0.6.0",
-    "grunt-ts": "^5.5.1",
-    "typescript": "^1.8.10"
+    "grunt-ts": "^6.0.0-beta.3",
+    "typescript": "^2.0.3"
   }
 }
