@@ -1,10 +1,9 @@
-.vscode/
 build/
-typings/
 .tscache/
 input/
 node_modules/
 .baseDir.ts
+tscommand-*.tmp.txt
 .DS_Store
 ._*
 .idea/

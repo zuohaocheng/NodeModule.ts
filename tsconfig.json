@@ -14,7 +14,6 @@
         "inlineSources": true
     },
     "filesGlob": [
-        "src/**/*.ts",
-        "!./node_modules/**/*.ts"
+        "src/**/*.ts"
     ]
 }
