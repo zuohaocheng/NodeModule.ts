@@ -11,7 +11,8 @@
         "sourceMaps": true,
         "noLib": false,
         "inlineSourceMap": true,
-        "inlineSources": true
+        "inlineSources": true,
+        "outDir": "build/"
     },
     "filesGlob": [
         "src/**/*.ts"
